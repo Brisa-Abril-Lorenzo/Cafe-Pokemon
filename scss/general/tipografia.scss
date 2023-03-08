@@ -1,0 +1,76 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@200;400&display=swap');
+
+$tipografia: (
+    tipografia-especial: "Fredoka One",
+    tipografia-general: "Outfit",
+);
+
+// ESTILOS GENERALES
+    // HEADER
+
+.titulo-header{
+    font-size: 110%;
+    font-family: map-get($map: $tipografia, $key: tipografia-especial );
+    letter-spacing: 1.5px;
+    color: map-get($map: $colores, $key:color-dos );
+}
+
+.secciones-header{
+    font-size: 90%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-dos );
+
+}
+    // MAIN
+
+.titulo-principal{
+    font-size: 240%;
+    font-family: map-get($map: $tipografia, $key:tipografia-especial );
+    color: map-get($map: $colores, $key:color-dos );
+}
+
+.titulo-secundario{
+    font-size: 190%;
+    font-family: map-get($map: $tipografia, $key:tipografia-especial );
+    color: map-get($map: $colores, $key:color-dos );
+}
+
+.texto-1{
+    font-size: 130%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-uno );
+}
+
+.texto-2{
+    font-size: 110%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-uno );
+}
+
+// ESTILOS DE CARTAS
+
+.titulo-carta{
+    font-size: 100%;
+    font-family: map-get($map: $tipografia, $key:tipografia-especial );
+    color: map-get($map: $colores, $key:color-uno );
+}
+
+.subtitulo-carta{
+    font-size: 90%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-dos );
+    font-weight: bold;
+}
+
+.subtitulo2-carta{
+    font-size: 80%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-dos );
+}
+
+.texto-carta{
+    font-size: 70%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-tres );
+}
