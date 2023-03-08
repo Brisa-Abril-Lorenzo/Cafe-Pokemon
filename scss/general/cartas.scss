@@ -1,0 +1,28 @@
+
+.carta {
+    border: 1px solid map-get($map: $colores, $key:color-uno );
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px map-get($map: $colores, $key:color-uno );
+    margin-bottom: 5px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: map-get($map: $colores, $key:color-cinco );
+}
+
+
+
+
+@media (min-width: 768px) {
+    .carta {
+        display: inline-block;
+        margin-right: 20px;
+        vertical-align: top;
+        width: calc(50% - 10px);
+    }
+
+    .carta:nth-child(2n) {
+        margin-right: 0;
+    }
+}

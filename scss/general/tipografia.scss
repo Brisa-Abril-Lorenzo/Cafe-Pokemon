@@ -10,18 +10,22 @@ $tipografia: (
     // HEADER
 
 .titulo-header{
-    font-size: 110%;
+    font-size: 130%;
     font-family: map-get($map: $tipografia, $key: tipografia-especial );
     letter-spacing: 1.5px;
     color: map-get($map: $colores, $key:color-dos );
 }
 
 .secciones-header{
-    font-size: 90%;
+    font-size: 95%;
     font-family: map-get($map: $tipografia, $key:tipografia-general );
     color: map-get($map: $colores, $key:color-dos );
-
 }
+
+    .titulo-header:hover, .secciones-header:hover{
+        color: map-get($map: $colores, $key:color-tres );
+        text-decoration: none;
+    }
     // MAIN
 
 .titulo-principal{

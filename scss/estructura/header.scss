@@ -1,0 +1,42 @@
+.header{
+    background-color: map-get($map: $colores, $key: color-cinco);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    .navbar{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin: 0;
+
+        .p.secciones-header{
+            margin: 0;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+      
+        .nav-link:hover {
+            color: #343a40;
+        }
+      
+        .navbar-toggler {
+            border: 2px solid #343a40;
+        }
+      
+        .navbar-toggler:focus,
+        .navbar-toggler:active,
+        .navbar-toggler:hover {
+            outline: none;
+        }
+      
+        .navbar-toggler-icon {
+            background-color: #495057;
+            width: 24px;
+            height: 2px;
+        }
+    }
+
+
+}

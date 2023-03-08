@@ -1,0 +1,25 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        text-decoration: none
+    }
+
+    hr{
+        height: 15px;
+        margin: 0 0;
+        background-color: map-get($map: $colores, $key: color-uno);
+        width: 100%;
+        box-shadow: 0 2px 5px map-get($map: $colores, $key:color-dos);
+    }
+
+    background-color: map-get($map: $colores, $key: color-cinco );
+
+}
