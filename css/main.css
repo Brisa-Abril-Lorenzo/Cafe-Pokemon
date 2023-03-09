@@ -6,13 +6,12 @@
   border: 1px solid #332011;
   border-radius: 5px;
   box-shadow: 0px 2px 2px #332011;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   padding: 20px 20px;
   width: 100%;
   box-sizing: border-box;
   align-items: center;
-  background-color: #FCF3E4;
-  padding-top: 20px; }
+  background-color: #FCF3E4; }
 
 @media (min-width: 768px) {
   .carta {
@@ -45,6 +44,11 @@
     transform: translateX(30%); }
   100% {
     transform: translateX(0); } }
+
+.imagen-carta-atuendo img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px; }
 
 a {
   text-decoration: none;
@@ -89,12 +93,12 @@ a:hover {
   color: #332011; }
 
 .titulo-carta {
-  font-size: 100%;
+  font-size: 90%;
   font-family: "Fredoka One";
   color: #332011; }
 
 .subtitulo-carta {
-  font-size: 120%;
+  font-size: 100%;
   font-family: "Outfit";
   color: #633C15;
   font-weight: bold; }
@@ -138,9 +142,10 @@ a:hover {
 * {
   margin: 0 0;
   padding: 0 0;
-  box-sizing: border-box a;
-    box-sizing-text-decoration: none;
-    box-sizing-color: black; }
+  box-sizing: border-box; }
+  * a {
+    text-decoration: none;
+    color: black; }
   * a:hover {
     text-decoration: none; }
   * hr {
@@ -182,8 +187,6 @@ a:hover {
   .footer form {
     max-width: 500px;
     margin: 0 auto; }
-    .footer form button {
-      color: #fff; }
     @media (max-width: 768px) {
       .footer form form {
         max-width: 100%;

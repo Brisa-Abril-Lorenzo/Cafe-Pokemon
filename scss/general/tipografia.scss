@@ -64,13 +64,13 @@ a:hover{
 // ESTILOS DE CARTAS
 
 .titulo-carta{
-    font-size: 100%;
+    font-size: 90%;
     font-family: map-get($map: $tipografia, $key:tipografia-especial );
     color: map-get($map: $colores, $key:color-uno );
 }
 
 .subtitulo-carta{
-    font-size: 120%;
+    font-size: 100%;
     font-family: map-get($map: $tipografia, $key:tipografia-general );
     color: map-get($map: $colores, $key:color-dos );
     font-weight: bold;
