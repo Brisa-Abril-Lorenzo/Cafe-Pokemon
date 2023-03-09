@@ -8,3 +8,6 @@ $colores: (
     color-cinco: #FCF3E4
 );
 
+#index, #atuendos, #ingredientes, #menu, #personal{
+    background-color: map-get($map: $colores, $key: color-cinco );
+}

@@ -7,6 +7,15 @@ $tipografia: (
 );
 
 // ESTILOS GENERALES
+
+a{
+    text-decoration: none;
+    color: map-get($map: $colores, $key:color-cuatro );
+}
+
+a:hover{
+    color: map-get($map: $colores, $key:color-cinco );
+}
     // HEADER
 
 .titulo-header{
@@ -61,7 +70,7 @@ $tipografia: (
 }
 
 .subtitulo-carta{
-    font-size: 90%;
+    font-size: 120%;
     font-family: map-get($map: $tipografia, $key:tipografia-general );
     color: map-get($map: $colores, $key:color-dos );
     font-weight: bold;
@@ -74,7 +83,39 @@ $tipografia: (
 }
 
 .texto-carta{
-    font-size: 70%;
+    font-size: 90%;
     font-family: map-get($map: $tipografia, $key:tipografia-general );
     color: map-get($map: $colores, $key:color-tres );
+}
+
+    // FOOTER
+.titulo-footer{
+    font-size: 120%;
+    font-family: map-get($map: $tipografia, $key:tipografia-especial );
+    color: map-get($map: $colores, $key:color-cinco );
+}
+
+.subtitulo-footer{
+    font-size: 100%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-cinco );
+}
+
+.texto-form{
+    font-size: 100%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+}
+
+.texto-copy{
+    font-size: 90%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-cinco );
+    letter-spacing: 1px
+}
+
+.texto2-copy{
+    font-size: 90%;
+    font-family: map-get($map: $tipografia, $key:tipografia-general );
+    color: map-get($map: $colores, $key:color-cuatro );
+    text-decoration: none
 }
