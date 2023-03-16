@@ -11,6 +11,10 @@
     background-color: map-get($map: $colores, $key:color-cinco );
 }
 
+.carta:hover{
+    background-color: map-get($map: $colores, $key:color-cuatro )
+}
+
 @media (min-width: 768px) {
     .carta {
         display: inline-block;

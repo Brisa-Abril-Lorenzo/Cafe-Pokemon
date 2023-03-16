@@ -13,6 +13,9 @@
   align-items: center;
   background-color: #FCF3E4; }
 
+.carta:hover {
+  background-color: #EFDBB6; }
+
 @media (min-width: 768px) {
   .carta {
     display: inline-block;
@@ -32,9 +35,9 @@
   max-width: 100%;
   height: auto;
   margin: 0 auto;
+  margin-top: 5px;
   width: 100px;
   height: 100px;
-  margin-top: 20px;
   animation: mover 3s ease-in-out infinite; }
 
 @keyframes mover {
